@@ -1,7 +1,12 @@
 *{
   padding: 0;
   margin: 0;
-  border: 1px black solid;
+  /* border: 1px black solid; */
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .num-box{
   font-size: 75px;
