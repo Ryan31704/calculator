@@ -22,6 +22,10 @@ for(let i = 0; i < btn.length; i++)
     }
     else if(txt === "/" || txt === "x" || txt === "-" || txt === "+")
     {
+      if(num1 !== '' && num2 !== '')
+      {
+        operate(num1, num2, operator)
+      }
       operator = txt;
       display.innerHTML += txt;
     }
