@@ -20,7 +20,7 @@ for(let i = 0; i < btn.length; i++)
       operator = '';
       display.innerHTML = '00'
     }
-    else if(txt === "/" || txt === "x" || txt === "-" || txt === "+")
+    else if(txt === "/" || txt === "*" || txt === "-" || txt === "+")
     {
       if(num1 !== '' && num2 !== '')
       {
@@ -55,7 +55,7 @@ function operate(n1, n2, op)
     result = Number(n1) / Number(n2);
     num1 = result.toString();
   }
-  else if(op === 'x')
+  else if(op === '*')
   {
     display.innerHTML = Number(n1) * Number(n2);
     result = Number(n1) * Number(n2);
